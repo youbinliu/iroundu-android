@@ -73,7 +73,7 @@ public class AppException extends Exception implements UncaughtExceptionHandler 
 	private boolean customHandleException(Throwable ex){
 		if(ex == null) return false;
 		
-		final Context context = AppManage.getInstance().currentActivity();
+		final Context context = AppManager.getInstance().currentActivity();
 		
 		if(context == null) return false;
 		

@@ -8,38 +8,75 @@
 package com.happy.iroundu;
 
 public final class R {
+    public static final class anim {
+        public static final int loading=0x7f040000;
+    }
     public static final class attr {
     }
     public static final class drawable {
-        public static final int btn_whatsnew=0x7f020000;
-        public static final int icon=0x7f020001;
-        public static final int new1=0x7f020002;
-        public static final int new2=0x7f020003;
-        public static final int welcome=0x7f020004;
-        public static final int whatsnew_btn_nor=0x7f020005;
-        public static final int whatsnew_btn_pressed=0x7f020006;
+        public static final int btn_style_green=0x7f020000;
+        public static final int btn_style_one_disabled=0x7f020001;
+        public static final int btn_style_one_focused=0x7f020002;
+        public static final int btn_style_one_normal=0x7f020003;
+        public static final int btn_style_one_pressed=0x7f020004;
+        public static final int btn_style_two_focused=0x7f020005;
+        public static final int btn_style_two_normal=0x7f020006;
+        public static final int btn_style_two_pressed=0x7f020007;
+        public static final int btn_style_white=0x7f020008;
+        public static final int btn_whatsnew=0x7f020009;
+        public static final int head_back=0x7f02000a;
+        public static final int head_back_normal=0x7f02000b;
+        public static final int head_back_selected=0x7f02000c;
+        public static final int head_bg=0x7f02000d;
+        public static final int icon=0x7f02000e;
+        public static final int loading_0=0x7f02000f;
+        public static final int loading_1=0x7f020010;
+        public static final int loading_2=0x7f020011;
+        public static final int loading_3=0x7f020012;
+        public static final int loading_4=0x7f020013;
+        public static final int loading_5=0x7f020014;
+        public static final int loading_6=0x7f020015;
+        public static final int loading_7=0x7f020016;
+        public static final int logo=0x7f020017;
+        public static final int new1=0x7f020018;
+        public static final int new2=0x7f020019;
+        public static final int page_index=0x7f02001a;
+        public static final int page_indicator_focused=0x7f02001b;
+        public static final int page_indicator_unfocused=0x7f02001c;
+        public static final int welcome=0x7f02001d;
+        public static final int whatsnew_btn_nor=0x7f02001e;
+        public static final int whatsnew_btn_pressed=0x7f02001f;
     }
     public static final class id {
-        public static final int menu_settings=0x7f070002;
-        public static final int startBtn=0x7f070001;
-        public static final int whatsnew_scrolllayout=0x7f070000;
+        public static final int head_back=0x7f080001;
+        public static final int head_progress=0x7f080002;
+        public static final int head_title=0x7f080000;
+        public static final int linearLayout1=0x7f080003;
+        public static final int llayout=0x7f080008;
+        public static final int main_login_btn=0x7f080004;
+        public static final int main_regist_btn=0x7f080005;
+        public static final int menu_settings=0x7f080009;
+        public static final int startBtn=0x7f080007;
+        public static final int whatsnew_scrolllayout=0x7f080006;
     }
     public static final class layout {
-        public static final int launch=0x7f030000;
-        public static final int whatsnew=0x7f030001;
+        public static final int header=0x7f030000;
+        public static final int index=0x7f030001;
+        public static final int launch=0x7f030002;
+        public static final int login=0x7f030003;
+        public static final int whatsnew=0x7f030004;
     }
     public static final class menu {
-        public static final int activity_main=0x7f060000;
+        public static final int activity_main=0x7f070000;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int hello_world=0x7f040001;
-        public static final int menu_settings=0x7f040002;
+        public static final int app_name=0x7f050000;
+        public static final int hello_world=0x7f050001;
+        public static final int menu_settings=0x7f050002;
     }
     public static final class style {
-        public static final int AppBaseTheme=0x7f050000;
-        /**  Application theme. 
-         */
-        public static final int AppTheme=0x7f050001;
+        public static final int head_title=0x7f060001;
+        public static final int index_btn=0x7f060000;
+        public static final int loading_small=0x7f060002;
     }
 }

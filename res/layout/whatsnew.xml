@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
@@ -16,15 +15,6 @@
 			  android:layout_width="fill_parent"    
 			  android:layout_height="fill_parent"
 			  >
-          <TextView
-              android:layout_width="wrap_content"
-              android:layout_height="wrap_content"
-              android:layout_alignParentBottom="true"
-              android:layout_centerHorizontal="true"
-              android:layout_marginBottom="89dp"
-              android:text="微信，不只是个聊天工具"
-              android:textColor="#FFFFFF"
-              android:textSize="18sp" />
       	</RelativeLayout>
       	<RelativeLayout  android:background="@drawable/new2"    
 		  android:layout_width="fill_parent"    
@@ -46,4 +36,16 @@
 	              />
 	      </RelativeLayout>
    	</com.happy.iroundu.widget.ScrollLayout>  
+   	<LinearLayout 
+    	android:orientation="horizontal" 
+    	android:id="@+id/llayout" 
+    	android:layout_width="wrap_content" 
+    	android:layout_height="wrap_content" 
+    	android:layout_marginBottom="24.0dip" 
+    	android:layout_alignParentBottom="true" 
+    	android:layout_centerHorizontal="true"
+    	android:visibility="visible">    	
+        <ImageView android:clickable="true"  android:padding="5.0dip" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_index" />
+        <ImageView android:clickable="true"  android:padding="5.0dip"  android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_index" />
+    </LinearLayout>
 </RelativeLayout>

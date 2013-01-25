@@ -6,13 +6,13 @@ import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
 
-public class AppManage extends Stack<Activity> {
+public class AppManager extends Stack<Activity> {
 
 	private static final long serialVersionUID = 1L;
 	
-	private static AppManage instance = new AppManage();
+	private static AppManager instance = new AppManager();
 	
-	public static AppManage getInstance(){
+	public static AppManager getInstance(){
 		return instance;
 	}
 	

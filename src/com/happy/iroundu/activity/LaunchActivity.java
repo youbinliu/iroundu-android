@@ -11,7 +11,7 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 
-public class LaunchActivity extends Activity {
+public class LaunchActivity extends BaseActivity {
 
 	private final static float fromAlpha = 0.3f;
 	private final static float toAlpha = 1.0f;
