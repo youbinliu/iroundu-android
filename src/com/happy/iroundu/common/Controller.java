@@ -43,4 +43,5 @@ public class Controller {
 		activity.startActivity(intent);
 		activity.finish();
 	}
+	
 }

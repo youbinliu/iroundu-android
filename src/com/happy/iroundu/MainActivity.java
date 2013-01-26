@@ -10,8 +10,8 @@ public class MainActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		//Controller.showLaunch(this);
-		Controller.showWhatsNew(this);
+		Controller.showLaunch(this);
+		//Controller.showWhatsNew(this);
 	}
 
 }

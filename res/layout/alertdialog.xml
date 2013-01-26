@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/alert_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:padding="5dp"
+            android:textColor="#333"
+            android:textSize="20sp"
+            android:id="@+id/alert_title"
+            android:text="" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#333"
+            android:layout_marginTop="1dp"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:gravity="center_horizontal"
+            android:id="@+id/alert_content"
+            android:text="内容" /> 
+        
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"           
+            android:layout_marginTop="53dp"
+            android:layout_marginBottom="8dp"
+             >
+
+            <Button
+                android:id="@+id/btn_sure"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_style_green"
+                android:gravity="center"
+                android:text="确定"
+                android:textColor="#fff"
+                android:textSize="20sp" />
+            
+        </LinearLayout>
+
+    </LinearLayout>
